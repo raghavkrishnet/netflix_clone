@@ -4,9 +4,7 @@ import './App.css';
 import Row from './components/Row/Row.js';
 import requests from './Requests';
 import Banner from './components/Banner/Banner.js'
-import Homebanner from './components/Homebanner/Homebanner.js';
 import Nav from './components/Nav/Nav.js';
-import Login from './components/Login/Login.js';
 
 
 function App() {
@@ -14,10 +12,8 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={<Homebanner />} />
-          <Route path="/login" element={<Login />} />
           <Route
-            path="/home"
+            path="/"
             element={
               <>
                 <Nav />
