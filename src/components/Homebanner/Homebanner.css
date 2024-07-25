@@ -1,0 +1,52 @@
+.home_banner_logo {
+    width: 100px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+}
+
+.home_banner_body h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.home_banner_body h2 {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.home_banner_body h3 {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.home_banner_input {
+    width: 300px;
+    max-width: 600px;
+    border: none;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.home_banner_input input {
+    width: 300px;
+    max-width: 600px;
+    border: 1px solid white;
+    height: 50px;
+    margin-right: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+.signin_getStarted {
+    width: 10rem;
+    background-color: #c72929;
+    color: #fff;
+    border: none;
+    height: 50px;
+}

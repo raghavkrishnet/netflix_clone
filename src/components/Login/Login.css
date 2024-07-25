@@ -1,0 +1,107 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/8728e059-7686-4d2d-a67a-84872bd71025/e90516bd-6925-4341-a6cf-0b9f3d0c140a/IN-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_34324b52-d094-482b-8c2a-708dc64c9065_large.jpg'); /* Update with your background image path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.login-box {
+  max-width: 400px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  background: #333;
+  color: white;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #e50914;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button.secondary {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.login-options {
+  margin-top: 20px;
+}
+
+.login-options span {
+  display: block;
+  margin: 10px 0;
+}
+
+.forgot-password {
+  display: block;
+  margin: 10px 0;
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.remember-me label {
+  margin-left: 8px;
+}
+
+.sign-up {
+  display: flex;
+  text-align: center;
+  justify-content: left;
+}
+
+.sign-up span {
+    display: block;
+    margin: 0 10px 0 0;
+}
+
+.sign-up a {
+  color: white;
+  text-decoration: none;
+}
+
+.sign-up a:hover {
+  text-decoration: underline;
+}
+
+
